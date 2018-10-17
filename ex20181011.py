@@ -1,8 +1,8 @@
 from datetime import datetime
 
-prompt = "\t>"
+prompt = "\n\t>"
 
-print("\tplease key in the date like this :'YYYYMMDD'")
+print("\n\tplease key in the date like this :'YYYYMMDD'")
 print("\n\tWhat's the date today?")
 
 date = input(prompt)
