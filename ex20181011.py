@@ -22,22 +22,22 @@ weekday = datetime.strptime(date,"%Y%m%d").isoweekday()
 if weekday == 1:
     x = "Mon."
     
-elif weekday == 2:
+if weekday == 2:
     x = "TUE."
     
-elif weekday == 3:
+if weekday == 3:
     x = "WED."
     
-elif weekday == 4:
+if weekday == 4:
     x = "THU."
     
-elif weekday == 5:
+if weekday == 5:
     x = "FRI."
     
-elif weekday == 6:
+if weekday == 6:
     x = "SAT."
     
-elif weekday == 7:
+if weekday == 7:
     x = "SUN."
     
 print ("\n\tToday is %r" %x)
